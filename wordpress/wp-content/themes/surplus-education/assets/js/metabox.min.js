@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#surplus-education-ui-tabs").tabs()});

@@ -1,0 +1,263 @@
+.stk-archive-instructor {
+
+	.site-main {
+		margin-left: -1.5%;
+		margin-right: -1.5%;
+		display: -webkit-box;
+		display: flex;
+		flex: 1;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		position: relative;
+		@include transition(all ease 0.2s);
+
+		.instructor-wrap {
+			position: relative;
+			overflow: hidden;
+			width: 30.33%;
+			margin-right: 1.5%;
+			margin-left: 1.5%;
+			margin-bottom: 30px;
+
+			.detail-link {
+
+				a {
+					font-size: 0.7778em;
+
+					&:hover {
+						color: $primary_color;
+						text-decoration: underline;
+					}
+
+				}
+
+			}
+
+			.flexbox-wrapper {
+				position: relative;
+				@include transition(all ease 0.2s);
+
+				.description, .close_popup {
+					display: none;
+				}//.description
+
+				.image-wrapper {
+
+					img {
+						width: 100%;
+					}
+
+					+ .content-wrapper {
+						position: absolute;
+						bottom: 0;
+						background: #f5f5f5;
+						width: calc(100% - 30px);
+						padding: 20px 10px 0 10px;
+					}
+
+				}//.image-wrapper
+
+				.team-name {
+					line-height: 1.5;
+
+					a {
+						color: $secondary_color;
+					}
+
+				}
+
+				.designation {
+					font-size: 0.7778em;
+					font-style: italic;
+					font-weight: 600;
+				}
+
+			}//.flexbox-wrapper
+
+			.flexbox-team-modal-outer {
+				display: block !important;
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				right: 10px;
+				background: rgba($secondary_color, 0.9);
+				padding: 20px;
+				bottom: 10px;
+				overflow: auto;
+				opacity: 0;
+				@include transition(all ease 0.2s);
+				@include transform(scale3d(1.1, 0.8, 1));
+
+				.image-wrapper {
+					display: none;
+				}//.image-wrapper
+
+				.content-wrapper {
+					// margin-bottom: 20px;
+
+					.team-name {
+						color: #fff;
+					}//.team-name
+
+
+					.designation {
+						font-size: 0.7778em;
+						line-height: 1.5;
+						font-style: italic;
+						display: block;
+						width: 100%;
+					}//.designation
+
+					.description {
+						color: #fff;
+						order: unset;
+					}//.description
+
+					.team-social-list {
+						justify-content: flex-start;
+						margin-top: 10px;
+
+						li {
+							line-height: 1;
+						}//li
+
+						a {
+							color: #fff;
+							padding: 0;
+							margin-right: 5px;
+
+							&:hover {
+								color: $primary_color;
+							}
+							
+						}//a
+
+					}//.team-social-list
+
+					.detail-link {
+						margin-top: 10px;
+					}
+
+				}//.content-wrapper
+
+				.flexbox-team-modal {
+				    // overflow: auto;
+				    height: 100%;
+				    display: block;
+				    position: relative;
+				}//.flexbox-team-modal
+
+			}//.flexbox-team-modal-outer
+
+			&:hover, &.focused {
+
+				.flexbox-team-modal-outer {
+					opacity: 1;
+					filter: alpha(opacity=100);
+					@include transform(scale3d(1, 1, 1));
+				}
+
+				.flexbox-wrapper .content-wrapper {
+					opacity: 0;
+					visibility: hidden;
+				}//.flexbox-wrapper
+
+			}
+
+			.content-wrapper {
+				display: -webkit-box;
+				display: flex;
+				flex: 1;
+				flex-wrap: wrap;
+				align-items: center;
+
+				.description {
+					order: 5;
+
+					p {
+						margin-top: 15px;
+						margin-bottom: 0;
+					}
+
+				}//.description
+
+			}//.content-wrapper
+
+			.team-name {
+				margin-top: 0;
+				margin-bottom: 0;
+				font-size: 1em;
+				font-weight: 800;
+				color: $secondary_color;
+				letter-spacing: 0.5px;
+				width: 100%;
+			}//.team-name
+
+			.designation {
+				font-weight: 700;
+				letter-spacing: 0.5px;
+				color: $primary_color;
+				display: -webkit-box;
+				display: flex;
+			}//.designation
+
+			.team-social-list {
+				display: -webkit-box;
+				display: flex;
+				flex: auto;
+				justify-content: flex-end;
+
+				ul {
+					margin: 0;
+					padding: 0;
+					list-style: none;
+
+					li {
+						display: inline-block;
+						margin: 5px;
+
+						a {
+							display: inline-block;
+							padding: 0;
+							color: $secondary_color;
+							font-size: 0.7778em;
+
+							&:hover {
+								color: rgba($secondary_color, 0.75);
+							}
+
+						}//a
+
+					}//li
+
+				}//ul
+
+			}//.team-social-list
+
+		}//.instructor-wrap
+
+	}//.site-main
+
+}//.stk-archive-instructor
+
+
+@include media(xs) {
+
+	.stk-archive-instructor {
+
+		.site-main {
+			margin-left: 0;
+			margin-right: 0;
+			flex-direction: column;
+
+			.instructor-wrap {
+				width: 100%;
+				margin-left: auto;
+				margin-right: 0;
+			}//.instructor-wrap
+			
+		}//.site-main
+
+	}//.stk-archive-instructor
+
+}//media(xs)

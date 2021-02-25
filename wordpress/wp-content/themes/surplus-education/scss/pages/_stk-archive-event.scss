@@ -1,0 +1,137 @@
+.stk-archive-event {
+
+	.site-main {
+
+		article {
+			margin-bottom: 40px;
+			padding-bottom: 40px;
+			border-bottom: 3px solid rgba(0, 0, 0, 0.05);
+
+			&:last-child {
+				margin-bottom: 0;
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+		}//article
+
+		.entry-title {
+			margin-top: 0;
+			margin-bottom: 30px;
+			font-size: 1.3333em;
+			font-weight: 700;
+			text-transform: uppercase;
+			line-height: 1.4;
+			letter-spacing: 0.5px;
+
+			a {
+				color: $secondary_color;
+			}//a
+
+		}//.entry-title
+
+		.post-thumbnail {
+			margin-bottom: 30px;
+		}//.post-thumbnail
+
+		.entry-meta {
+			margin-bottom: 30px;
+			font-size: 0.8888em;
+			font-weight: 700;
+			border: 1px solid rgba(0,0,0,0.15);
+			display: -webkit-box;
+			display: flex;
+			flex: 1;
+			flex-wrap: wrap;
+
+			> span {
+				padding: 10px 15px;
+				display: -webkit-box;
+				display: flex;
+				flex: auto;
+				border-right: 1px solid rgba(0,0,0,0.15);
+				align-items: center;
+				letter-spacing: 0.5px;
+				color: #999;
+
+				&:last-child {
+					border-right: none;
+				}
+
+				svg {
+					color: $secondary_color;
+					margin-right: 10px;
+					width: 20px;
+					height: 20px;
+				}
+
+				a {
+					color: #999;
+
+					&:hover {
+						color: $secondary_color;
+					}
+				}//a
+
+			}//> span
+
+		}//.entry-meta
+
+		.entry-content {
+			margin-top: 0;
+
+			p {
+				margin-top: 0;
+				margin-bottom: 20px;
+			}
+
+		}//.entry-content
+
+		.btn-readmore {
+			display: inline-block;
+			background: $primary_color;
+			color: $secondary_color;
+			font-size: 0.8888em;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+			padding: 10px 30px;
+			border-radius: 5px;
+
+			&:hover {
+				background: $secondary_color;
+				color: $primary_color;
+			}
+
+		}//.btn-readmore
+
+	}//.site-main
+
+}//.stk-archive-event
+
+@include media(xs) {
+
+	.stk-archive-event {
+
+		.site-main {
+
+			.entry-meta {
+				flex-direction: column;
+
+				> span {
+					border-right: none;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+					&:last-child {
+						border-bottom: none;
+					}
+
+				}//> span
+
+			}//.entry-meta
+
+		}//.site-main
+
+	}//.stk-archive-event
+
+}//media(xs)

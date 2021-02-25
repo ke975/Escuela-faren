@@ -1,0 +1,170 @@
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;
+	border-radius: 5px;
+	background: $primary_color;
+	border: 1px solid $primary_color;
+	color: #fff;
+	font-size: 1.3333em;
+	line-height: 1.4;
+	padding: 15px 30px;
+	cursor: pointer;
+	@include transition(all ease 0.35s);
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: none;
+	color: $primary_color;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea, select {
+	color: #000;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	padding: 10px 15px;
+	width: 100%;
+	height: 50px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus, 
+select:focus {
+	color: #111;
+	box-shadow: none;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="%23666" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>');
+	background-repeat: no-repeat;
+	background-size: 12px;
+	background-position: calc(100% - 15px) 50%;
+	padding-right: 35px;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+}
+
+
+@-moz-document url-prefix() {
+    a:focus,
+    button:focus,
+	input[type="button"]:focus,
+	input[type="reset"]:focus,
+	input[type="submit"]:focus, 
+	input[type="text"]:focus,
+	input[type="email"]:focus,
+	input[type="url"]:focus,
+	input[type="password"]:focus,
+	input[type="search"]:focus,
+	input[type="number"]:focus,
+	input[type="tel"]:focus,
+	input[type="range"]:focus,
+	input[type="date"]:focus,
+	input[type="month"]:focus,
+	input[type="week"]:focus,
+	input[type="time"]:focus,
+	input[type="datetime"]:focus,
+	input[type="datetime-local"]:focus,
+	input[type="color"]:focus,
+	textarea:focus, 
+	select:focus {
+		outline: thin dotted;
+	}
+}
+
+.search-form {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	align-items: center;
+
+	label {
+		width: calc(100% - 85px);
+		padding-right: 5px;
+
+		.search-field {
+			font-size: 1.125em;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}//label
+
+	.search-submit {
+		width: 85px;
+		padding: 0;
+		height: 50px;
+		background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23fff" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>');
+		background-repeat: no-repeat;
+		background-size: 25px;
+		background-position: center;
+		text-indent: 90px;
+		overflow: hidden;
+
+		&:hover, 
+		&:focus, 
+		&:active {
+			background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%2364d657" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>');
+			background-repeat: no-repeat;
+			background-size: 25px;
+			background-position: center;
+		}
+	}//search-submit
+}//.search-form
+
+
+.advance-search-form {
+	position: relative;
+	top: -50px;
+	z-index: 999;
+}//.advance-search-form
+
+@media screen and (max-width: 767px) {
+	.advance-search-form {
+		top: 0;
+	}//.advance-search-form
+}//max-width: 767px

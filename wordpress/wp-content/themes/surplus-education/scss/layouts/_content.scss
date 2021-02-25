@@ -1,0 +1,85 @@
+/*============================
+SIDEBARS
+============================*/
+#primary {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.rightsidebar {
+	#primary {
+		float: left;
+		width: calc(100% - 350px);
+		padding-right: 55px;
+	}
+}
+
+.leftsidebar {
+	#primary {
+		float: right;
+		width: calc(100% - 350px);
+		padding-left: 55px;
+	}
+}
+
+#secondary {
+	float: left;
+	width: 350px;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+
+.home:not(.blog) #primary {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+//Responsive
+
+@include media(md) {
+	.rightsidebar {
+		#primary {
+			width: calc(100% - 300px);
+		}
+	}
+
+	.leftsidebar {
+		#primary {
+			width: calc(100% - 300px);
+		}
+	}
+
+	#secondary {
+		width: 300px;
+	}//#secondary
+}//max-width: 1199px
+
+@include media(sm) {
+	.rightsidebar {
+		#primary {
+			float: none;
+			width: 100%;
+			padding-right: 0;
+		}
+	}
+
+	.leftsidebar {
+		#primary {
+			float: none;
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+
+	#secondary {
+		float: none;
+		width: 100%;
+	}
+}//max-width: 1024px
+
+@include media(xs) {
+	#primary, #secondary {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}//#primary
+}//max-width: 767px

@@ -1,0 +1,126 @@
+.error404 {
+
+	.error-404 {
+		display: -webkit-box;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+
+		.image-wrap {
+			width: 41%;
+		}//.image-wrap
+
+		.page-content {
+			width: 59%;
+			padding-left: 50px;
+			margin-top: 0;
+		}//.page-content
+
+		p {
+			margin-top: 0;
+			margin-bottom: 30px;
+			font-size: 1.1112em;
+			color: $secondary_color;
+			font-family: $secondary_font;
+			font-weight: 600;
+			line-height: 1.75;
+
+			+ p {
+				color: #999;
+				font-size: 0.8888em;
+				margin-bottom: 20px;
+			}
+
+		}//p
+
+		.search-form {
+			border: 1px solid rgba(0,0,0,0.2);
+			border-radius: 5px;
+			margin-bottom: 50px;
+
+			label {
+				padding-right: 0;
+				width: calc(100% - 120px);
+			}
+
+			.search-field {
+				border: none;
+			}
+
+			.search-submit {
+				background-image: none;
+				width: 120px;
+				text-indent: 0;
+				font-size: 1em;
+				font-weight: 700;
+				color: $secondary_color;
+				letter-spacing: 0.5px;
+				padding-left: 10px;
+				padding-right: 10px;
+
+				&:hover {
+					border-color: $secondary_color;
+					background-color: $secondary_color;
+					color: #fff;
+				}
+			}//.search-submit
+
+		}//.search-form
+
+		.btn-readmore {
+			display: inline-block;
+			color: $secondary_color;
+			font-family: $secondary_font;
+			font-size: 0.7778em;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+			background: $primary_color;
+			padding: 15px 40px;
+			border-radius: 5px;
+
+			&:hover {
+				background: $secondary_color;
+				color: $primary_color;
+			}
+
+		}//.btn-readmore
+
+	}//.error-404
+
+}//.error404
+
+@include media(xs) {
+
+	.error404 {
+
+		.error-404 {
+			flex-direction: column;
+
+			.image-wrap {
+				width: 100%;
+				margin-bottom: 40px;
+			}//.image-wrap
+
+			.page-content {
+				width: 100%;
+				padding-left: 0;
+			}//.page-content
+
+			.search-form {
+
+				label {
+					width: calc(100% - 90px);
+				}
+
+				.search-submit {
+					width: 90px;
+				}
+
+			}//.search-form
+
+		}//.error-404
+
+	}//.error404
+
+}//media(xs)

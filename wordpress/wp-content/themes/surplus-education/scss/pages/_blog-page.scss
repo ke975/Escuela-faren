@@ -1,0 +1,231 @@
+.blog, .archive, .search {
+
+	// #primary, #secondary {
+	// 	margin-top: 0;
+	// }
+
+	.site-main {
+
+		.page-header {
+			padding: 0 !important;
+			background: none;
+			min-height: auto;
+			margin-bottom: 0;
+			display: block;
+
+			&::before {
+				display: none;
+			}
+
+			.page-title {
+				margin-bottom: 0;
+				font-size: 1.6665em;
+				color: #222;
+			}//.page-title
+
+		}//.page-header
+		
+		article {
+			margin-bottom: 60px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			.entry-header {
+				margin-bottom: 30px;
+
+				.entry-title {
+					margin-top: 0;
+					margin-bottom: 0;
+					font-size: 1.3333em;
+
+					a {
+						color: $secondary_color;
+						display: inline-block;
+
+						&:hover {
+							color: $primary_color;
+						}//&:hover
+
+					}//a
+
+				}//.entry-title
+
+			}//.entry-header
+
+			.post-thumbnail {
+				display: block;
+				margin-bottom: 30px;
+			}//.post-thumbnail
+
+			.entry-meta {
+				border: 1px solid rgba(0,0,0,0.2);
+				display: -webkit-box;
+				display: flex;
+				flex-wrap: wrap;
+
+				> span {
+					display: -webkit-box;
+					display: flex;
+					flex: 1;
+					font-size: 0.8888em;
+					font-weight: 600;
+					color: #999;
+					border-right: 1px solid rgba(0,0,0,0.2);
+					padding: 8px 15px;
+					align-items: center;
+
+					&:last-child {
+						border-right: none;
+					}
+
+					svg {
+						margin-right: 7px;
+						color: $secondary_color;
+					}
+
+					a {
+						display: inline-block;
+						margin-left: 5px;
+						color: #999;
+
+						&:hover {
+							color: $secondary_color;
+						}
+
+					}//a
+
+				}//span
+
+			}//.entry-meta
+
+			.entry-content {
+				margin-top: 30px;
+				font-weight: 600;
+				color: #777;
+				letter-spacing: 0.5px;
+
+				p {
+					margin-top: 20px;
+					margin-bottom: 0;
+
+					&:first-child {
+						margin-top: 0;
+					}
+
+				}//p
+
+			}//.entry-content
+
+			.entry-footer {
+				margin-top: 20px;
+
+				.button-wrap {
+					display: inline-block;
+					vertical-align: middle;
+
+					+ .edit-link {
+						margin-left: 20px;
+					}
+
+				}//.button-wrap
+
+			}//.entry-footer
+
+		}//article
+
+	}//.site-main
+
+}//.blog
+
+.search {
+
+	.site-content {
+
+		.page-header {
+
+			.search-form {
+				flex: initial;
+				max-width: 768px;
+				background: rgba(255,255,255,0.7);
+				border-radius: 5px;
+				justify-content: center;
+
+				label {
+					width: calc(100% - 70px);
+					padding-right: 0;
+				}//label
+
+				.search-field {
+					background: none;
+					border: none;
+					height: 70px;
+					font-size: 2.6665em;
+				}//.search-field
+
+				.search-submit {
+					border: none;
+					height: 70px;
+					width: 70px;
+					background-color: transparent;
+					background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23555" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>');
+
+					&:hover {
+						background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23111" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>');
+					}
+
+				}//.search-submit
+
+			}//.search-form
+
+		}//.page-header
+
+	}//.site-content
+
+	.no-results {
+
+		.page-content {
+			margin-top: 1em;
+			font-size: 1.1112em;
+
+			p {
+				margin: 0;
+			}
+
+		}//.page-content
+
+	}//.no-results
+
+}//.search
+
+@include media(xs) {
+	.blog, .archive, .search {
+		
+		.site-main {
+
+			article {
+
+				.entry-meta {
+					flex-direction: column;
+					align-items: center;
+					text-align: center;
+
+					> span {
+						border-right: none;
+						border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+						width: 100%;
+
+						&:last-child {
+							border-bottom: none;
+						}//&:last-child
+					}//span
+				}//.entry-meta
+
+			}//article
+
+		}//.site-main
+
+	}//.blog
+
+}//media(xs)

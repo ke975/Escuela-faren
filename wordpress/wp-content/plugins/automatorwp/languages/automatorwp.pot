@@ -1,0 +1,2619 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AutomatorWP\n"
+"Report-Msgid-Bugs-To: https://automatorwp.com/\n"
+"POT-Creation-Date: 2021-02-24 12:11+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: AutomatorWP (https://automatorwp.com/)\n"
+"Language-Team: AutomatorWP <contact@automatorwp.com>\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: includes/actions.php:46
+#, php-format
+msgid "Action \"%s\" has the option key \"%s\" that is not allowed"
+msgstr ""
+
+#: includes/actions.php:53
+#, php-format
+msgid "Possible action duplication with the key \"%s\""
+msgstr ""
+
+#: includes/admin.php:48 includes/admin.php:111
+msgid "AutomatorWP"
+msgstr ""
+
+#: includes/admin.php:84 includes/admin.php:154
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin.php:118 includes/custom-tables.php:30
+#: includes/custom-tables.php:38
+msgid "Automations"
+msgstr ""
+
+#: includes/admin.php:126 includes/custom-tables.php:175
+#: includes/custom-tables.php:183
+msgid "Logs"
+msgstr ""
+
+#: includes/admin.php:162 includes/admin/pages/licenses.php:255
+#: includes/admin/pages/licenses.php:262
+msgid "Licenses"
+msgstr ""
+
+#: includes/admin.php:170 includes/admin/pages/settings.php:135
+#: includes/admin/pages/settings.php:141 includes/admin/pages/settings.php:166
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/notices.php:45
+msgid "Awesome! You've been using <strong>AutomatorWP</strong> for a while."
+msgstr ""
+
+#: includes/admin/notices.php:46
+msgid "May I ask you to give it a <strong>5-star rating</strong> on WordPress?"
+msgstr ""
+
+#: includes/admin/notices.php:47
+msgid "This will help to spread its popularity and to make this plugin a better one."
+msgstr ""
+
+#: includes/admin/notices.php:49
+msgid "Your help is much appreciated. Thank you very much,"
+msgstr ""
+
+#: includes/admin/notices.php:53
+msgid "Yes, I want to rate it!"
+msgstr ""
+
+#: includes/admin/notices.php:54
+msgid "I already did"
+msgstr ""
+
+#: includes/admin/notices.php:55
+msgid "No, I don't want to rate it"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:32
+msgid "AutomatorWP Add-ons"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:35
+msgid "Add-ons to extend and expand the functionality of AutomatorWP."
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:125
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:125
+msgid "Install Now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:131
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:131
+msgid "Update Now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:138
+msgctxt "plugin"
+msgid "Active"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:140 includes/admin/pages/add-ons.php:208
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:141 includes/admin/pages/add-ons.php:209
+#, php-format
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:149 includes/admin/pages/add-ons.php:217
+msgid "Network Activate"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:150 includes/admin/pages/add-ons.php:218
+#, php-format
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:161
+msgctxt "plugin"
+msgid "Installed"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:193
+msgid "Activate License"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:196
+msgid "Active and License Registered"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:202 includes/automations.php:22
+msgid "Active"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:233
+msgid "Get this pass"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:238
+msgid "Get this add-on"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:245
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:245
+msgid "More Details"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:314 includes/admin/pages/add-ons.php:326
+#: includes/automation-ui.php:1291 includes/automation-ui.php:1303
+#, php-format
+msgid "An unexpected error occurred. Something may be wrong with automatorwp.com or this server&#8217;s configuration. If you continue to have problems, please try to <a href=\"%s\">contact us</a>."
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:316 includes/automation-ui.php:1293
+msgid "(WordPress could not establish a secure connection to automatorwp.com. Please contact your server administrator.)"
+msgstr ""
+
+#: includes/admin/pages/licenses.php:200
+msgid "License"
+msgstr ""
+
+#: includes/admin/pages/licenses.php:265
+#: includes/custom-tables/automations.php:425
+#: includes/custom-tables/automations.php:576
+#: includes/custom-tables/automations.php:584
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/pages/licenses.php:383
+msgid "Enter valid license key for automatic updates."
+msgstr ""
+
+#: includes/admin/pages/settings.php:145
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/pages/settings.php:146
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/admin/settings/general.php:24
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings/general.php:27
+msgid "Automatic logs cleanup:"
+msgstr ""
+
+#: includes/admin/settings/general.php:28
+msgid "Enter the number of days you want to keep the logs. Leave empty to disable the automatic logs cleanup."
+msgstr ""
+
+#: includes/admin/settings/general.php:29
+msgid "Automatic logs cleanup will remove unused logs older than the number of days entered keeping only the important logs entries."
+msgstr ""
+
+#: includes/admin/settings/general.php:33
+msgid "Disable top bar menu:"
+msgstr ""
+
+#: includes/admin/settings/general.php:34
+msgid "Check this option to disable the AutomatorWP top bar menu."
+msgstr ""
+
+#: includes/ajax-functions.php:29 includes/ajax-functions.php:35
+msgid "Invalid automation."
+msgstr ""
+
+#: includes/ajax-functions.php:39 includes/ajax-functions.php:159
+#: includes/ajax-functions.php:197 includes/ajax-functions.php:249
+msgid "Invalid item type."
+msgstr ""
+
+#: includes/ajax-functions.php:52 includes/ajax-functions.php:245
+msgid "Invalid trigger."
+msgstr ""
+
+#: includes/ajax-functions.php:54
+msgid "Invalid action."
+msgstr ""
+
+#: includes/ajax-functions.php:131
+msgid "Trigger can't be created."
+msgstr ""
+
+#: includes/ajax-functions.php:133
+msgid "Action can't be created."
+msgstr ""
+
+#: includes/ajax-functions.php:155 includes/ajax-functions.php:266
+#: includes/ajax-functions.php:273
+msgid "Invalid item."
+msgstr ""
+
+#: includes/ajax-functions.php:169
+msgid "Item deleted."
+msgstr ""
+
+#: includes/ajax-functions.php:189 includes/ajax-functions.php:193
+msgid "Invalid items."
+msgstr ""
+
+#: includes/ajax-functions.php:223
+msgid "Items order updated."
+msgstr ""
+
+#: includes/ajax-functions.php:280
+msgid "Invalid option."
+msgstr ""
+
+#: includes/ajax-functions.php:758
+msgid "Table not found."
+msgstr ""
+
+#: includes/ajax-functions.php:838 includes/cmb2.php:382
+#: includes/custom-tables/automations.php:200
+#: includes/custom-tables/logs.php:208 includes/custom-tables/logs.php:252
+#: includes/custom-tables/logs.php:327 includes/custom-tables/logs.php:698
+#: includes/custom-tables/logs.php:782
+msgid "(No title)"
+msgstr ""
+
+#: includes/automation-ui.php:38
+msgid "Automation type"
+msgstr ""
+
+#: includes/automation-ui.php:49
+msgid "<strong>Note:</strong> Automation type cannot be changed later. "
+msgstr ""
+
+#: includes/automation-ui.php:53
+msgid "Confirm"
+msgstr ""
+
+#: includes/automation-ui.php:54 includes/automation-ui.php:361
+#: includes/automation-ui.php:575
+msgid "Cancel"
+msgstr ""
+
+#: includes/automation-ui.php:115 includes/automation-ui.php:135
+#: includes/custom-tables.php:89 includes/custom-tables/automations.php:152
+msgid "Triggers"
+msgstr ""
+
+#: includes/automation-ui.php:116 includes/automation-ui.php:179
+#: includes/custom-tables.php:132 includes/custom-tables/automations.php:153
+msgid "Actions"
+msgstr ""
+
+#: includes/automation-ui.php:136
+msgid "When this happens..."
+msgstr ""
+
+#: includes/automation-ui.php:140
+msgid "Sequential"
+msgstr ""
+
+#: includes/automation-ui.php:143
+msgid "Check this option to force users to complete triggers in order."
+msgstr ""
+
+#: includes/automation-ui.php:160
+msgid "Anonymous automations only support one trigger per automation."
+msgstr ""
+
+#: includes/automation-ui.php:161
+msgid "Add Trigger"
+msgstr ""
+
+#: includes/automation-ui.php:180
+msgid "Do this..."
+msgstr ""
+
+#: includes/automation-ui.php:197
+msgid "Add Action"
+msgstr ""
+
+#: includes/automation-ui.php:230
+msgid "Select an integration"
+msgstr ""
+
+#: includes/automation-ui.php:286
+msgid "Select a trigger"
+msgstr ""
+
+#: includes/automation-ui.php:292
+msgid "Search for triggers"
+msgstr ""
+
+#: includes/automation-ui.php:324
+msgid "Select an action"
+msgstr ""
+
+#: includes/automation-ui.php:330
+msgid "Search for actions"
+msgstr ""
+
+#: includes/automation-ui.php:365 includes/automation-ui.php:579
+msgid "Saving..."
+msgstr ""
+
+#: includes/automation-ui.php:448 includes/automation-ui.php:685
+msgid "Delete"
+msgstr ""
+
+#: includes/automation-ui.php:574 includes/custom-tables/automations.php:453
+#: includes/custom-tables/automations.php:472
+#: includes/custom-tables/automations.php:487
+#: includes/custom-tables/automations.php:500
+#: includes/custom-tables/automations.php:520 includes/scripts.php:149
+msgid "Save"
+msgstr ""
+
+#: includes/automation-ui.php:627
+#: includes/integrations/automatorwp/actions/anonymous-user.php:82
+#: includes/integrations/automatorwp/actions/anonymous-user.php:84
+#, php-format
+msgid "Actions will be run on %1$s"
+msgstr ""
+
+#: includes/automation-ui.php:667
+msgid "Trigger disabled because plugin associated couldn't be found. Please, re-install the plugin associated or remove this trigger."
+msgstr ""
+
+#: includes/automation-ui.php:669
+msgid "Action disabled because plugin associated couldn't be found. Please, re-install the plugin associated or remove this action."
+msgstr ""
+
+#: includes/automation-ui.php:678 includes/automation-ui.php:688
+#: includes/custom-tables/automations.php:235 includes/logs.php:174
+msgid "Missing plugin"
+msgstr ""
+
+#: includes/automation-ui.php:1141
+msgid "Looking for more triggers?"
+msgstr ""
+
+#: includes/automation-ui.php:1141
+msgid "Looking for more actions?"
+msgstr ""
+
+#: includes/automation-ui.php:1142
+msgid "View all add-ons"
+msgstr ""
+
+#: includes/automation-ui.php:1153
+#, php-format
+msgid "%d plugin of your site can be connected with AutomatorWP."
+msgid_plural "%d plugins of your site can be connected with AutomatorWP."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/automation-ui.php:1154
+msgid "View plugins"
+msgstr ""
+
+#: includes/automation-ui.php:1165
+#, php-format
+msgid "%d trigger"
+msgid_plural "%d triggers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/automation-ui.php:1169
+#, php-format
+msgid "%d action"
+msgid_plural "%d actions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/automations.php:23
+msgid "Inactive"
+msgstr ""
+
+#: includes/automations.php:40
+msgid "Logged-in"
+msgstr ""
+
+#: includes/automations.php:41
+msgid "Automation for logged-in users. Designed to run actions on the user who has completed the triggers."
+msgstr ""
+
+#: includes/automations.php:45 includes/logs.php:23
+msgid "Anonymous"
+msgstr ""
+
+#: includes/automations.php:46
+msgid "Automation for anonymous users. Ideal for creating new users or for modifying existing users."
+msgstr ""
+
+#: includes/cmb2.php:37 includes/utilities.php:52 includes/utilities.php:89
+msgid "any post"
+msgstr ""
+
+#: includes/cmb2.php:75 includes/utilities.php:135 includes/utilities.php:171
+msgid "any category"
+msgstr ""
+
+#: includes/cmb2.php:115 includes/filters.php:74 includes/utilities.php:210
+#: includes/utilities.php:213
+msgid "any taxonomy"
+msgstr ""
+
+#: includes/cmb2.php:234
+msgid "a post of any type"
+msgstr ""
+
+#: includes/cmb2.php:246
+#, php-format
+msgid "a %s"
+msgstr ""
+
+#: includes/cmb2.php:272
+msgid "any status"
+msgstr ""
+
+#: includes/cmb2.php:310 includes/utilities.php:365 includes/utilities.php:400
+msgid "any role"
+msgstr ""
+
+#: includes/cmb2.php:352
+msgid "any item"
+msgstr ""
+
+#: includes/cmb2.php:414 includes/utilities.php:470
+msgid "Use a custom value"
+msgstr ""
+
+#: includes/custom-tables.php:29 includes/custom-tables/logs.php:158
+#: includes/logs.php:22
+msgid "Automation"
+msgstr ""
+
+#: includes/custom-tables.php:88 includes/logs.php:24
+msgid "Trigger"
+msgstr ""
+
+#: includes/custom-tables.php:131 includes/logs.php:25
+msgid "Action"
+msgstr ""
+
+#: includes/custom-tables.php:174
+msgid "Log"
+msgstr ""
+
+#: includes/custom-tables/automations.php:150
+#: includes/custom-tables/automations.php:405
+#: includes/custom-tables/automations.php:409
+#: includes/custom-tables/logs.php:156
+msgid "Title"
+msgstr ""
+
+#: includes/custom-tables/automations.php:151
+#: includes/custom-tables/automations.php:429
+#: includes/custom-tables/logs.php:157
+msgid "Type"
+msgstr ""
+
+#: includes/custom-tables/automations.php:154
+#: includes/custom-tables/automations.php:480
+msgid "Author"
+msgstr ""
+
+#: includes/custom-tables/automations.php:155
+msgid "Completions"
+msgstr ""
+
+#: includes/custom-tables/automations.php:156
+#: includes/custom-tables/automations.php:495
+msgid "Status"
+msgstr ""
+
+#: includes/custom-tables/automations.php:157
+#: includes/custom-tables/logs.php:161
+msgid "Date"
+msgstr ""
+
+#: includes/custom-tables/automations.php:269
+msgid "Missing integration"
+msgstr ""
+
+#: includes/custom-tables/automations.php:413
+msgid "Enter title here"
+msgstr ""
+
+#: includes/custom-tables/automations.php:442
+msgid "Times per user"
+msgstr ""
+
+#: includes/custom-tables/automations.php:443
+msgid "Maximum number of times a user can complete this automation. Set it to 0 for unlimited."
+msgstr ""
+
+#: includes/custom-tables/automations.php:461
+msgid "Total times"
+msgstr ""
+
+#: includes/custom-tables/automations.php:462
+msgid "Maximum number of times this automation can be completed. Set it to 0 for unlimited."
+msgstr ""
+
+#: includes/custom-tables/automations.php:508
+msgid "Created on"
+msgstr ""
+
+#: includes/custom-tables/automations.php:509
+msgid "Automation will take effect based on this date. You can schedule <strong>future</strong> automations by setting this field with a future date."
+msgstr ""
+
+#: includes/custom-tables/automations.php:510
+msgid "<strong>Note:</strong> For future automations, status need to be <strong>active</strong> because setting a future date won't update the status automatically."
+msgstr ""
+
+#: includes/custom-tables/automations.php:572
+msgid "Save &amp; Activate"
+msgstr ""
+
+#: includes/custom-tables/automations.php:595
+msgid "Are you sure you want to delete this automation?\\n\\nClick \\'Cancel\\' to go back, \\'OK\\' to confirm the delete."
+msgstr ""
+
+#: includes/custom-tables/automations.php:597
+#: includes/custom-tables/logs.php:407
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/custom-tables/automations.php:598
+#: includes/custom-tables/logs.php:408
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/custom-tables/logs.php:159 includes/tags.php:52
+msgid "User"
+msgstr ""
+
+#: includes/custom-tables/logs.php:160 includes/utilities.php:552
+msgid "Post"
+msgstr ""
+
+#: includes/custom-tables/logs.php:341
+msgid "Log Details"
+msgstr ""
+
+#: includes/custom-tables/logs.php:342
+msgid "Log Data"
+msgstr ""
+
+#: includes/custom-tables/logs.php:368
+#: includes/integrations/wordpress/actions/create-post.php:95
+#: includes/integrations/wordpress/actions/create-post.php:382
+msgid "Type:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:373
+msgid "User:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:390
+#: includes/integrations/wordpress/actions/create-post.php:109
+#: includes/integrations/wordpress/actions/create-post.php:394
+msgid "Date:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:405
+msgid "Are you sure you want to delete this item?\\n\\nClick \\'Cancel\\' to go back, \\'OK\\' to confirm the delete."
+msgstr ""
+
+#: includes/custom-tables/logs.php:493
+msgid "Trigger:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:494
+msgid "Trigger assigned to this log."
+msgstr ""
+
+#: includes/custom-tables/logs.php:498 includes/custom-tables/logs.php:514
+#: includes/custom-tables/logs.php:525 includes/utilities.php:312
+msgid "Automation:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:499
+msgid "Trigger's automation."
+msgstr ""
+
+#: includes/custom-tables/logs.php:509
+msgid "Action:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:510
+msgid "Action assigned to this log."
+msgstr ""
+
+#: includes/custom-tables/logs.php:515
+msgid "Action's automation."
+msgstr ""
+
+#: includes/custom-tables/logs.php:526
+msgid "Automation assigned to this log."
+msgstr ""
+
+#: includes/custom-tables/logs.php:536 includes/utilities.php:48
+#: includes/utilities.php:85
+msgid "Post:"
+msgstr ""
+
+#: includes/custom-tables/logs.php:537
+msgid "Post assigned to this log."
+msgstr ""
+
+#: includes/custom-tables/logs.php:734
+msgid "(No post assigned)"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:74
+#: includes/integrations/wordpress/actions/create-post.php:65
+#: includes/integrations/wordpress/actions/create-post.php:72
+#: includes/integrations/wordpress/actions/create-user.php:47
+#: includes/integrations/wordpress/actions/update-user.php:56
+#: includes/integrations/wordpress/actions/user-role.php:29
+#, php-format
+msgid "<code>%1$s</code> for %2$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:90
+#: includes/integrations/automatorwp/actions/anonymous-user.php:768
+msgid "Run actions on:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:95
+#: includes/integrations/automatorwp/actions/anonymous-user.php:603
+#: includes/integrations/automatorwp/actions/anonymous-user.php:657
+#: includes/integrations/automatorwp/actions/anonymous-user.php:772
+msgid "Existing user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:96
+#: includes/integrations/automatorwp/actions/anonymous-user.php:604
+#: includes/integrations/automatorwp/actions/anonymous-user.php:662
+#: includes/integrations/automatorwp/actions/anonymous-user.php:773
+msgid "New user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:104
+#: includes/integrations/automatorwp/actions/anonymous-user.php:219
+#: includes/integrations/automatorwp/actions/anonymous-user.php:782
+msgid "Field to search the user:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:105
+#: includes/integrations/automatorwp/actions/anonymous-user.php:783
+msgid "The field by which to search the user."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:109
+#: includes/integrations/automatorwp/actions/anonymous-user.php:283
+#: includes/tags.php:58
+msgid "ID"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:110
+#: includes/integrations/automatorwp/actions/anonymous-user.php:224
+#: includes/tags.php:70
+msgid "Email"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:111
+#: includes/integrations/automatorwp/actions/anonymous-user.php:225
+#: includes/tags.php:64
+msgid "Username"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:116
+#: includes/integrations/automatorwp/actions/anonymous-user.php:788
+msgid "Field value:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:117
+#: includes/integrations/automatorwp/actions/anonymous-user.php:789
+msgid "Value of the field to search the user."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:123
+#: includes/integrations/automatorwp/actions/anonymous-user.php:794
+msgid "What to do if the user doesn't exist:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:127
+#: includes/integrations/automatorwp/actions/anonymous-user.php:213
+#: includes/integrations/automatorwp/actions/anonymous-user.php:617
+#: includes/integrations/automatorwp/actions/anonymous-user.php:625
+#: includes/integrations/automatorwp/actions/anonymous-user.php:797
+msgid "Do not run the actions"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:128
+#: includes/integrations/automatorwp/actions/anonymous-user.php:618
+#: includes/integrations/automatorwp/actions/anonymous-user.php:798
+msgid "Create a new user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:136
+#: includes/integrations/automatorwp/actions/anonymous-user.php:815
+#: includes/integrations/wordpress/actions/create-user.php:63
+#: includes/integrations/wordpress/actions/create-user.php:332
+#: includes/integrations/wordpress/actions/update-user.php:79
+#: includes/integrations/wordpress/actions/update-user.php:378
+msgid "Username:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:137
+#: includes/integrations/automatorwp/actions/anonymous-user.php:816
+#: includes/integrations/wordpress/actions/create-user.php:64
+#: includes/integrations/wordpress/actions/create-user.php:333
+#: includes/integrations/wordpress/actions/update-user.php:80
+#: includes/integrations/wordpress/actions/update-user.php:379
+msgid "The user's login username."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:143
+#: includes/integrations/automatorwp/actions/anonymous-user.php:821
+#: includes/integrations/wordpress/actions/create-user.php:70
+#: includes/integrations/wordpress/actions/create-user.php:338
+#: includes/integrations/wordpress/actions/update-user.php:86
+#: includes/integrations/wordpress/actions/update-user.php:384
+msgid "Email:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:144
+#: includes/integrations/automatorwp/actions/anonymous-user.php:822
+#: includes/integrations/wordpress/actions/create-user.php:71
+#: includes/integrations/wordpress/actions/create-user.php:339
+#: includes/integrations/wordpress/actions/update-user.php:87
+#: includes/integrations/wordpress/actions/update-user.php:385
+msgid "The user email address."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:150
+#: includes/integrations/automatorwp/actions/anonymous-user.php:828
+#: includes/integrations/wordpress/actions/create-user.php:77
+#: includes/integrations/wordpress/actions/create-user.php:345
+#: includes/integrations/wordpress/actions/update-user.php:93
+#: includes/integrations/wordpress/actions/update-user.php:391
+msgid "First Name:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:151
+#: includes/integrations/automatorwp/actions/anonymous-user.php:829
+#: includes/integrations/wordpress/actions/create-user.php:78
+#: includes/integrations/wordpress/actions/create-user.php:346
+#: includes/integrations/wordpress/actions/update-user.php:94
+#: includes/integrations/wordpress/actions/update-user.php:392
+msgid "The user's first name."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:156
+#: includes/integrations/automatorwp/actions/anonymous-user.php:835
+#: includes/integrations/wordpress/actions/create-user.php:83
+#: includes/integrations/wordpress/actions/create-user.php:352
+#: includes/integrations/wordpress/actions/update-user.php:100
+#: includes/integrations/wordpress/actions/update-user.php:398
+msgid "Last Name:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:157
+#: includes/integrations/automatorwp/actions/anonymous-user.php:836
+#: includes/integrations/wordpress/actions/create-user.php:84
+#: includes/integrations/wordpress/actions/create-user.php:353
+#: includes/integrations/wordpress/actions/update-user.php:101
+#: includes/integrations/wordpress/actions/update-user.php:399
+msgid "The user's last name."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:162
+#: includes/integrations/automatorwp/actions/anonymous-user.php:842
+#: includes/integrations/wordpress/actions/create-user.php:89
+#: includes/integrations/wordpress/actions/create-user.php:359
+#: includes/integrations/wordpress/actions/update-user.php:107
+#: includes/integrations/wordpress/actions/update-user.php:405
+msgid "Website:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:163
+#: includes/integrations/automatorwp/actions/anonymous-user.php:843
+#: includes/integrations/wordpress/actions/create-user.php:90
+#: includes/integrations/wordpress/actions/create-user.php:360
+#: includes/integrations/wordpress/actions/update-user.php:108
+#: includes/integrations/wordpress/actions/update-user.php:406
+msgid "The user URL."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:168
+#: includes/integrations/automatorwp/actions/anonymous-user.php:849
+#: includes/integrations/wordpress/actions/create-post.php:145
+#: includes/integrations/wordpress/actions/create-post.php:430
+#: includes/integrations/wordpress/actions/create-user.php:95
+#: includes/integrations/wordpress/actions/create-user.php:366
+#: includes/integrations/wordpress/actions/update-user.php:114
+#: includes/integrations/wordpress/actions/update-user.php:412
+msgid "Password:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:169
+#: includes/integrations/wordpress/actions/create-user.php:96
+msgid "The user password. Leave blank to get password will get automatically generated."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:174
+#: includes/integrations/automatorwp/actions/anonymous-user.php:856
+#: includes/integrations/wordpress/actions/create-user.php:101
+#: includes/integrations/wordpress/actions/create-user.php:373
+#: includes/integrations/wordpress/actions/update-user.php:121
+#: includes/integrations/wordpress/actions/update-user.php:419
+#: includes/utilities.php:363 includes/utilities.php:398
+msgid "Role:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:175
+#: includes/integrations/wordpress/actions/create-user.php:102
+msgid "The user's role. By default, \"subscriber\"."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:181
+#: includes/integrations/wordpress/actions/create-user.php:108
+msgid "Send User Notification:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:182
+#: includes/integrations/wordpress/actions/create-user.php:109
+msgid "Send the new user an email about their account."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:187
+#: includes/integrations/automatorwp/actions/anonymous-user.php:862
+#: includes/integrations/wordpress/actions/create-user.php:114
+#: includes/integrations/wordpress/actions/create-user.php:379
+#: includes/integrations/wordpress/actions/update-user.php:129
+#: includes/integrations/wordpress/actions/update-user.php:425
+msgid "User Meta:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:188
+#: includes/integrations/automatorwp/actions/anonymous-user.php:863
+#: includes/integrations/wordpress/actions/create-user.php:115
+#: includes/integrations/wordpress/actions/create-user.php:380
+#: includes/integrations/wordpress/actions/update-user.php:130
+#: includes/integrations/wordpress/actions/update-user.php:426
+msgid "The user meta values keyed by their user meta key."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:192
+#: includes/integrations/wordpress/actions/create-post.php:156
+#: includes/integrations/wordpress/actions/create-user.php:119
+#: includes/integrations/wordpress/actions/update-user.php:134
+msgid "Add meta"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:197
+#: includes/integrations/wordpress/actions/create-post.php:161
+#: includes/integrations/wordpress/actions/create-user.php:124
+#: includes/integrations/wordpress/actions/update-user.php:139
+msgid "Meta Key:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:202
+#: includes/integrations/wordpress/actions/create-post.php:166
+#: includes/integrations/wordpress/actions/create-user.php:129
+#: includes/integrations/wordpress/actions/update-user.php:144
+msgid "Meta Value:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:209
+msgid "What to do if the user already exists:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:214
+#: includes/integrations/automatorwp/actions/anonymous-user.php:626
+msgid "Select existing user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:220
+msgid "The field by which to search the user if during creation is detected that the user already exists."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:284
+msgid "email"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:285
+msgid "username"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:310
+#, php-format
+msgid "Existing user found by %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:313
+#, php-format
+msgid "Existing user found by the %1$s %2$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:333
+#, php-format
+msgid "Existing user not found by %1$s, could not create user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:336
+#, php-format
+msgid "Existing user not found by the %1$s %2$s, could not create user, reason: %3$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:340
+#, php-format
+msgid "Existing user not found by %1$s, new user created"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:343
+#, php-format
+msgid "Existing user not found by the %1$s %2$s, new user created"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:355
+#, php-format
+msgid "Existing user not found by %1$s, execution aborted"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:358
+#, php-format
+msgid "Existing user not found by the %1$s %2$s, execution aborted"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:401
+#, php-format
+msgid "New user found by %1$s, selecting user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:404
+#, php-format
+msgid "New user found by the %1$s %2$s, selecting user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:414
+#, php-format
+msgid "New user found by %1$s, execution aborted"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:417
+#, php-format
+msgid "New user found by the %1$s %2$s, execution aborted"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:429
+#: includes/integrations/wordpress/actions/create-user.php:296
+msgid "Could not create user"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:432
+#, php-format
+msgid "Could not create user, reason: %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:436
+#: includes/integrations/automatorwp/actions/anonymous-user.php:437
+msgid "New user created"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:632
+msgid "Actions will be run on..."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:640
+#, php-format
+msgid "Where %1$s matches with %2$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:641
+#, php-format
+msgid "If user not found then %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:645
+#, php-format
+msgid "With the email %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:646
+#, php-format
+msgid "If user already exists then %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:650
+#: includes/integrations/wordpress/actions/user-role.php:49
+msgid "Change"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:809
+#: includes/integrations/wordpress/actions/create-user.php:326
+#: includes/integrations/wordpress/actions/update-user.php:366
+msgid "User Information"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:810
+#: includes/integrations/wordpress/actions/create-user.php:327
+#: includes/integrations/wordpress/actions/update-user.php:367
+msgid "Information about the user created."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:850
+#: includes/integrations/wordpress/actions/create-user.php:367
+#: includes/integrations/wordpress/actions/update-user.php:115
+#: includes/integrations/wordpress/actions/update-user.php:413
+msgid "The user password."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:857
+#: includes/integrations/wordpress/actions/create-user.php:374
+#: includes/integrations/wordpress/actions/update-user.php:122
+#: includes/integrations/wordpress/actions/update-user.php:420
+msgid "The user's role."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/anonymous-user.php:870
+#: includes/integrations/automatorwp/actions/anonymous-user.php:896
+#: includes/integrations/automatorwp/actions/redirect-user.php:200
+#: includes/integrations/wordpress/actions/create-post.php:442
+#: includes/integrations/wordpress/actions/create-user.php:385
+#: includes/integrations/wordpress/actions/update-user.php:431
+msgid "Result:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:35
+msgid "Redirect user to url"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:36
+msgid "Redirect user to <strong>url</strong>"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:38
+#: includes/integrations/automatorwp/actions/redirect-user.php:40
+#, php-format
+msgid "Redirect user to %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:44
+msgid "url"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:47
+#: includes/integrations/automatorwp/actions/redirect-user.php:194
+msgid "URL:"
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:48
+msgid "The url to redirect."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:79
+#, php-format
+msgid "%s is not a valid URL."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:90
+msgid "User redirected successfully."
+msgstr ""
+
+#: includes/integrations/automatorwp/actions/redirect-user.php:195
+msgid "The url where user has been redirected."
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/complete-automation.php:26
+msgid "User completes an automation"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/complete-automation.php:27
+msgid "User completes <strong>an automation</strong>"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/complete-automation.php:29
+#, php-format
+msgid "User completes %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/complete-automation.php:31
+#, php-format
+msgid "User completes %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/post-created.php:26
+msgid "Post gets created through an automation"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/post-created.php:27
+msgid "Post gets created through <strong>an automation</strong>"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/post-created.php:29
+#, php-format
+msgid "Post gets created through %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/post-created.php:31
+#, php-format
+msgid "Post gets created through %1$s"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/user-created.php:26
+msgid "User gets created through an automation"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/user-created.php:27
+msgid "User gets created through <strong>an automation</strong>"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/user-created.php:29
+#, php-format
+msgid "User gets created through %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/automatorwp/triggers/user-created.php:31
+#, php-format
+msgid "User gets created through %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:77
+msgid "Create a post"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:78
+msgid "Create <strong>a post</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:80
+#: includes/integrations/wordpress/actions/create-post.php:82
+#: includes/integrations/wordpress/actions/create-user.php:55
+#: includes/integrations/wordpress/actions/create-user.php:57
+#, php-format
+msgid "Create a %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:85
+msgid "post"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:88
+#: includes/integrations/wordpress/actions/create-post.php:376
+msgid "Title:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:89
+#: includes/integrations/wordpress/actions/create-post.php:377
+msgid "The post title."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:96
+msgid "The post type. By default, \"post\"."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:102
+#: includes/integrations/wordpress/actions/create-post.php:388
+#: includes/integrations/wordpress/triggers/post-type-status.php:55
+msgid "Status:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:103
+msgid "The post status. By default, \"draft\"."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:110
+msgid "The date of the post. Supports \"YYYY-MM-DD HH:MM:SS\" and \"YYYY-MM-DD\" formats. By default, the date at the moment the automation gets completed."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:115
+#: includes/integrations/wordpress/actions/create-post.php:400
+msgid "Author:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:116
+msgid "The ID of the user who added this post. By default, ID of user who completes this automation."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:121
+#: includes/integrations/wordpress/actions/create-post.php:406
+#: includes/integrations/wordpress/actions/send-email.php:96
+#: includes/integrations/wordpress/actions/send-email.php:239
+msgid "Content:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:122
+msgid "The post content. By default, empty."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:127
+#: includes/integrations/wordpress/actions/create-post.php:412
+msgid "Excerpt:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:128
+msgid "The post excerpt. By default, empty."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:133
+#: includes/integrations/wordpress/actions/create-post.php:418
+msgid "Parent:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:134
+msgid "The post parent. By default, none."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:139
+#: includes/integrations/wordpress/actions/create-post.php:424
+msgid "Menu order:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:140
+msgid "The post menu order. By default, 0."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:146
+msgid "The password to access this post. By default, empty."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:151
+#: includes/integrations/wordpress/actions/create-post.php:436
+msgid "Post Meta:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:152
+#: includes/integrations/wordpress/actions/create-post.php:437
+msgid "The post meta values keyed by their post meta key."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:336
+msgid "Post created correctly"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:340
+msgid "Could not create post"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:370
+msgid "Post Information"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:371
+msgid "Information about the post created."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:383
+msgid "The post type."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:389
+msgid "The post status."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:395
+msgid "The date of the post."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:401
+msgid "The ID of the user who added this post."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:407
+msgid "The post content."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:413
+msgid "The post excerpt."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:419
+msgid "The post parent."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:425
+msgid "The post menu order."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-post.php:431
+msgid "The password to access this post."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-user.php:52
+msgid "Create a user"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-user.php:53
+msgid "Create <strong>a user</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-user.php:60
+#: includes/integrations/wordpress/actions/send-email.php:60
+#: includes/integrations/wordpress/actions/update-user.php:69
+msgid "user"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/create-user.php:292
+msgid "User created correctly"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:35
+msgid "Set, insert, increment or decrement post meta"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:36
+msgid "Set, insert, increment or decrement <strong>post meta</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:38
+#: includes/integrations/wordpress/actions/post-meta.php:40
+#, php-format
+msgid "%1$s post %2$s meta value %3$s for meta key %4$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:46
+#: includes/integrations/wordpress/actions/user-meta.php:37
+#: includes/integrations/wordpress/actions/user-role.php:45
+msgid "Operation:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:47
+#: includes/integrations/wordpress/actions/user-meta.php:38
+msgid "Operation defines how the meta value will be applied. The available options are:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:48
+#: includes/integrations/wordpress/actions/user-meta.php:39
+msgid "<strong>Set:</strong> The new value will be set as the meta value."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:49
+#: includes/integrations/wordpress/actions/user-meta.php:40
+msgid "Example: If old value is \"Word\" and new value is \"Press\", the final meta value will be \"Press\"."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:50
+#: includes/integrations/wordpress/actions/user-meta.php:41
+msgid "<strong>Insert:</strong> The new value will be inserted to the current meta value (for arrays, the new value will be inserted at the end, for other types, the new value will be appended)."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:51
+#: includes/integrations/wordpress/actions/user-meta.php:42
+msgid "Example for arrays: If old value is array( \"Word\" ) and new value is \"Press\", the final meta value will be array( \"Word\", \"Press\" )."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:52
+#: includes/integrations/wordpress/actions/user-meta.php:43
+msgid "Example for other types: If old value is \"Word\" and new value is \"Press\", the final meta value will be \"WordPress\"."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:53
+#: includes/integrations/wordpress/actions/user-meta.php:44
+msgid "<strong>Increment:</strong> For numeric values, the current meta value will be incremented the same amount as the new value."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:54
+#: includes/integrations/wordpress/actions/user-meta.php:45
+msgid "Example: If old value is \"5\" and new value is \"1\", the final meta value will be \"6\"."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:55
+#: includes/integrations/wordpress/actions/user-meta.php:46
+msgid "<strong>Decrement:</strong> For numeric values, the current meta value will be decremented the same amount as the new value."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:56
+#: includes/integrations/wordpress/actions/user-meta.php:47
+msgid "Example: If old value is \"5\" and new value is \"1\", the final meta value will be \"4\"."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:59
+#: includes/integrations/wordpress/actions/user-meta.php:50
+msgid "Set"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:60
+#: includes/integrations/wordpress/actions/user-meta.php:51
+msgid "Insert"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:61
+#: includes/integrations/wordpress/actions/user-meta.php:52
+msgid "Increment"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:62
+#: includes/integrations/wordpress/actions/user-meta.php:53
+msgid "Decrement"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:70
+msgid "(Post ID)"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:73
+msgid "Post ID:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:81
+#: includes/integrations/wordpress/actions/user-meta.php:61
+msgid "value"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:84
+#: includes/integrations/wordpress/actions/user-meta.php:64
+#: includes/integrations/wordpress/triggers/post-meta-update.php:58
+#: includes/integrations/wordpress/triggers/user-meta-update.php:54
+msgid "Meta value:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:93
+#: includes/integrations/wordpress/actions/user-meta.php:73
+msgid "key"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:96
+#: includes/integrations/wordpress/actions/user-meta.php:76
+#: includes/integrations/wordpress/triggers/post-meta-update.php:47
+#: includes/integrations/wordpress/triggers/user-meta-update.php:43
+msgid "Meta key:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/post-meta.php:153
+#, php-format
+msgid "%1$s post %2$s meta value by %3$s for meta key %4$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:51
+msgid "Send an email"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:52
+msgid "Send <strong>an email</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:54
+#: includes/integrations/wordpress/actions/send-email.php:56
+#, php-format
+msgid "Send an email to %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:63
+#: includes/integrations/wordpress/actions/send-email.php:209
+msgid "From:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:64
+msgid "Leave empty to use default WordPress email."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:69
+#: includes/integrations/wordpress/actions/send-email.php:215
+msgid "To:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:70
+msgid "Email address(es) to send the email. Accepts single or comma-separated list of emails."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:71
+msgid "Leave empty to use the email of the user that completes the automation."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:77
+#: includes/integrations/wordpress/actions/send-email.php:221
+msgid "CC:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:78
+#: includes/integrations/wordpress/actions/send-email.php:84
+msgid "Email address(es) that will receive a copy of this email. Accepts single or comma-separated list of emails."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:83
+#: includes/integrations/wordpress/actions/send-email.php:227
+msgid "BCC:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:89
+#: includes/integrations/wordpress/actions/send-email.php:233
+msgid "Subject:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:90
+#: includes/integrations/wordpress/actions/send-email.php:234
+msgid "Email's subject."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:97
+#: includes/integrations/wordpress/actions/send-email.php:240
+msgid "Email's content."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:174
+msgid "Sent"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:174
+msgid "Not sent"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:203
+msgid "Sending Information"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:204
+msgid "Information about email sent."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:210
+msgid "Email sender."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:216
+msgid "Email recipient."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:222
+msgid "Carbon copy emails."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:228
+msgid "Blind carbon copy emails."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:246
+msgid "Sending result:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/send-email.php:247
+msgid "If sending result is \"Not sent\" you need to check if your server's wp_mail() function is correctly configured."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:61
+msgid "Update a user"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:62
+msgid "Update a <strong>user</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:64
+#: includes/integrations/wordpress/actions/update-user.php:66
+#, php-format
+msgid "Update a %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:72
+#: includes/integrations/wordpress/actions/update-user.php:372
+msgid "User ID:"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:73
+msgid "The user's ID to update."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:74
+msgid "Leave empty to use the ID of the user that completes the automation."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:81
+#: includes/integrations/wordpress/actions/update-user.php:88
+#: includes/integrations/wordpress/actions/update-user.php:95
+#: includes/integrations/wordpress/actions/update-user.php:102
+#: includes/integrations/wordpress/actions/update-user.php:109
+#: includes/integrations/wordpress/actions/update-user.php:116
+#: includes/integrations/wordpress/actions/update-user.php:123
+msgid "Leave empty to no update this field."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:190
+#, php-format
+msgid "User not found by the ID %1$s."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:199
+#, php-format
+msgid "Invalid username: %1$s."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:201
+#, php-format
+msgid "Username \"%1$s\" already exists."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:211
+#, php-format
+msgid "Invalid email address: %1$s."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:213
+#, php-format
+msgid "Email address \"%1$s\" already exists."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:223
+#, php-format
+msgid "Invalid role: %1$s."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:274
+#, php-format
+msgid "Failed to update user, reason: %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/update-user.php:373
+msgid "The user's ID updated."
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-meta.php:26
+msgid "Set, insert, increment or decrement user meta"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-meta.php:27
+msgid "Set, insert, increment or decrement <strong>user meta</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-meta.php:29
+#: includes/integrations/wordpress/actions/user-meta.php:31
+#, php-format
+msgid "%1$s user meta value %2$s for meta key %3$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-meta.php:130
+#, php-format
+msgid "%1$s user meta value by %2$s for meta key %3$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:34
+msgid "Add, change or remove role to user"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:35
+msgid "Add, change or remove <strong>role</strong> to user"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:37
+#: includes/integrations/wordpress/actions/user-role.php:39
+#, php-format
+msgid "%1$s role %2$s"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:48
+msgid "Add"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:50
+msgid "Remove"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:58
+msgid "another role"
+msgstr ""
+
+#: includes/integrations/wordpress/actions/user-role.php:60
+#: includes/utilities.php:366 includes/utilities.php:401
+msgid "Role name."
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/add-role.php:26
+msgid "User gets added to role"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/add-role.php:27
+msgid "User gets <strong>added</strong> to role"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/add-role.php:29
+#, php-format
+msgid "User gets added to %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/add-role.php:31
+#, php-format
+msgid "User gets added to %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-taxonomy.php:27
+msgid "Guest comments on a post of a taxonomy"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-taxonomy.php:28
+msgid "Guest comments on a post of <strong>a taxonomy</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-taxonomy.php:30
+#, php-format
+msgid "Guest comments on a post of %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-taxonomy.php:32
+#, php-format
+msgid "Guest comments on a post of %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-type.php:27
+msgid "Guest comments on a post of a type"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-type.php:28
+msgid "Guest comments on <strong>a post of a type</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-type.php:30
+#, php-format
+msgid "Guest comments on %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-type.php:32
+#, php-format
+msgid "Guest comments on %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-comment-post-type.php:46
+#: includes/integrations/wordpress/triggers/anonymous-view-post-type.php:42
+#: includes/integrations/wordpress/triggers/comment-post-type.php:45
+#: includes/integrations/wordpress/triggers/post-type-status.php:41
+#: includes/integrations/wordpress/triggers/publish-post-type.php:41
+#: includes/integrations/wordpress/triggers/view-post-type.php:41
+msgid "Post type:"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:27
+msgid "Guest views a page"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:28
+msgid "Guest views <strong>a page</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:30
+#: includes/integrations/wordpress/triggers/anonymous-view-post-type.php:30
+#: includes/integrations/wordpress/triggers/anonymous-view-post.php:30
+#, php-format
+msgid "Guest views %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:32
+#: includes/integrations/wordpress/triggers/anonymous-view-post-type.php:32
+#: includes/integrations/wordpress/triggers/anonymous-view-post.php:32
+#, php-format
+msgid "Guest views %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:39
+#: includes/integrations/wordpress/triggers/comment-page.php:42
+#: includes/integrations/wordpress/triggers/view-page.php:38
+msgid "Page:"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:40
+#: includes/integrations/wordpress/triggers/comment-page.php:43
+#: includes/integrations/wordpress/triggers/view-page.php:39
+msgid "any page"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-page.php:46
+#: includes/integrations/wordpress/triggers/comment-page.php:50
+#: includes/integrations/wordpress/triggers/publish-page.php:39
+#: includes/integrations/wordpress/triggers/view-page.php:45
+msgid "Page"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post-taxonomy.php:27
+msgid "Guest views a post of a taxonomy"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post-taxonomy.php:28
+msgid "Guest views a post of <strong>a taxonomy</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post-taxonomy.php:30
+#, php-format
+msgid "Guest views a post of %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post-taxonomy.php:32
+#, php-format
+msgid "Guest views a post of %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post-type.php:27
+msgid "Guest views a post of a type"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post-type.php:28
+msgid "Guest views <strong>a post of a type</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post.php:27
+msgid "Guest views a post"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/anonymous-view-post.php:28
+msgid "Guest views <strong>a post</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-page.php:26
+msgid "User comments on a page"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-page.php:27
+msgid "User comments on <strong>a page</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-page.php:29
+#: includes/integrations/wordpress/triggers/comment-post-type.php:29
+#: includes/integrations/wordpress/triggers/comment-post.php:29
+#, php-format
+msgid "User comments on %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-page.php:31
+#: includes/integrations/wordpress/triggers/comment-post-type.php:31
+#: includes/integrations/wordpress/triggers/comment-post.php:31
+#, php-format
+msgid "User comments on %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-category.php:26
+msgid "User comments on a post of a category"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-category.php:27
+msgid "User comments on a post of <strong>a category</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-category.php:29
+#: includes/integrations/wordpress/triggers/comment-post-tag.php:29
+#: includes/integrations/wordpress/triggers/comment-post-taxonomy.php:29
+#, php-format
+msgid "User comments on a post of %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-category.php:31
+#: includes/integrations/wordpress/triggers/comment-post-tag.php:31
+#: includes/integrations/wordpress/triggers/comment-post-taxonomy.php:31
+#, php-format
+msgid "User comments on a post of %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-tag.php:26
+msgid "User comments on a post of a tag"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-tag.php:27
+msgid "User comments on a post of <strong>a tag</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-tag.php:42
+#: includes/integrations/wordpress/triggers/publish-post-tag.php:38
+#: includes/integrations/wordpress/triggers/view-post-tag.php:38
+msgid "Tag:"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-tag.php:43
+#: includes/integrations/wordpress/triggers/publish-post-tag.php:39
+#: includes/integrations/wordpress/triggers/view-post-tag.php:39
+msgid "any tag"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-taxonomy.php:26
+msgid "User comments on a post of a taxonomy"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-taxonomy.php:27
+msgid "User comments on a post of <strong>a taxonomy</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-type.php:26
+msgid "User comments on a post of a type"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post-type.php:27
+msgid "User comments on <strong>a post of a type</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post.php:26
+msgid "User comments on a post"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/comment-post.php:27
+msgid "User comments on <strong>a post</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/login.php:26
+msgid "User logs in to the site"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/login.php:27
+msgid "User <strong>logs in</strong> to the site"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/login.php:29
+#, php-format
+msgid "User logs in %1$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/login.php:30
+msgid "User logs in"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:26
+msgid "Post meta gets updated with a value"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:27
+msgid "Post <strong>meta gets updated</strong> with a value"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:29
+#, php-format
+msgid "%1$s meta %2$s gets updated with %3$s %4$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:31
+#, php-format
+msgid "%1$s meta %2$s gets updated with %3$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:39
+msgid "Any post"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:44
+#: includes/integrations/wordpress/triggers/user-meta-update.php:40
+msgid "with any key"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:55
+#: includes/integrations/wordpress/triggers/user-meta-update.php:51
+msgid "any value"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:69
+#: includes/integrations/wordpress/triggers/post-meta-update.php:257
+#: includes/integrations/wordpress/triggers/user-meta-update.php:65
+#: includes/integrations/wordpress/triggers/user-meta-update.php:242
+msgid "Updated meta key"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:71
+#: includes/integrations/wordpress/triggers/user-meta-update.php:67
+msgid "Key of the updated meta"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:74
+#: includes/integrations/wordpress/triggers/post-meta-update.php:263
+#: includes/integrations/wordpress/triggers/user-meta-update.php:70
+#: includes/integrations/wordpress/triggers/user-meta-update.php:248
+msgid "Updated meta value"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:76
+#: includes/integrations/wordpress/triggers/user-meta-update.php:72
+msgid "Value of the updated meta"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:258
+#: includes/integrations/wordpress/triggers/user-meta-update.php:243
+msgid "Key of the updated meta."
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-meta-update.php:264
+#: includes/integrations/wordpress/triggers/user-meta-update.php:249
+msgid "Value of the updated meta."
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-type-status.php:26
+msgid "User post of a type status changes"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-type-status.php:27
+msgid "User post of a type <strong>status changes</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-type-status.php:29
+#, php-format
+msgid "User %1$s status changes to %2$s %3$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-type-status.php:31
+#, php-format
+msgid "User %1$s status changes to %2$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/post-type-status.php:46
+msgid "post of any type"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-page.php:26
+#: includes/integrations/wordpress/triggers/publish-page.php:30
+msgid "User publishes a page"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-page.php:27
+msgid "User publishes <strong>a page</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-page.php:29
+#, php-format
+msgid "User publishes a page %1$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-category.php:26
+msgid "User publishes a post in a category"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-category.php:27
+msgid "User publishes a post in <strong>a category</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-category.php:29
+#: includes/integrations/wordpress/triggers/publish-post-taxonomy.php:29
+#, php-format
+msgid "User publishes a post in %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-category.php:31
+#: includes/integrations/wordpress/triggers/publish-post-taxonomy.php:31
+#, php-format
+msgid "User publishes a post in %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-tag.php:26
+msgid "User publishes a post with a tag"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-tag.php:27
+msgid "User publishes a post with <strong>a tag</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-tag.php:29
+#, php-format
+msgid "User publishes a post with %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-tag.php:31
+#, php-format
+msgid "User publishes a post with %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-taxonomy.php:26
+msgid "User publishes a post in a taxonomy"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-taxonomy.php:27
+msgid "User publishes a post in <strong>a taxonomy</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-type.php:26
+msgid "User publishes a post of a type"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-type.php:27
+msgid "User publishes <strong>a post of a type</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-type.php:29
+#, php-format
+msgid "User publishes %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post-type.php:31
+#, php-format
+msgid "User publishes %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post.php:26
+#: includes/integrations/wordpress/triggers/publish-post.php:30
+msgid "User publishes a post"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post.php:27
+msgid "User publishes <strong>a post</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/publish-post.php:29
+#, php-format
+msgid "User publishes a post %1$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/register.php:26
+#: includes/integrations/wordpress/triggers/register.php:28
+msgid "User registers to the site"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/register.php:27
+msgid "User <strong>registers</strong> to the site"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/register.php:29
+msgid "User registers"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/remove-role.php:26
+msgid "User gets removed from role"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/remove-role.php:27
+msgid "User gets <strong>removed</strong> from role"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/remove-role.php:29
+#, php-format
+msgid "User gets removed from %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/remove-role.php:31
+#, php-format
+msgid "User gets removed from %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/set-role.php:26
+msgid "User role changes to role"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/set-role.php:27
+msgid "User role <strong>changes</strong> to role"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/set-role.php:29
+#, php-format
+msgid "User role changes to %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/set-role.php:31
+#, php-format
+msgid "User role changes to %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/user-meta-update.php:26
+msgid "User meta gets updated with a value"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/user-meta-update.php:27
+msgid "User <strong>meta gets updated</strong> with a value"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/user-meta-update.php:29
+#, php-format
+msgid "User meta %1$s gets updated with %2$s %3$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/user-meta-update.php:31
+#, php-format
+msgid "User meta %1$s gets updated with %2$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-page.php:26
+msgid "User views a page"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-page.php:27
+msgid "User views <strong>a page</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-page.php:29
+#: includes/integrations/wordpress/triggers/view-post-type.php:29
+#: includes/integrations/wordpress/triggers/view-post.php:29
+#, php-format
+msgid "User views %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-page.php:31
+#: includes/integrations/wordpress/triggers/view-post-type.php:31
+#: includes/integrations/wordpress/triggers/view-post.php:31
+#, php-format
+msgid "User views %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-category.php:26
+msgid "User views a post of a category"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-category.php:27
+msgid "User views a post of <strong>a category</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-category.php:29
+#: includes/integrations/wordpress/triggers/view-post-tag.php:29
+#: includes/integrations/wordpress/triggers/view-post-taxonomy.php:29
+#, php-format
+msgid "User views a post of %1$s %2$s time(s)"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-category.php:31
+#: includes/integrations/wordpress/triggers/view-post-tag.php:31
+#: includes/integrations/wordpress/triggers/view-post-taxonomy.php:31
+#, php-format
+msgid "User views a post of %1$s"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-tag.php:26
+msgid "User views a post of a tag"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-tag.php:27
+msgid "User views a post of <strong>a tag</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-taxonomy.php:26
+msgid "User views a post of a taxonomy"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-taxonomy.php:27
+msgid "User views a post of <strong>a taxonomy</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-type.php:26
+msgid "User views a post of a type"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post-type.php:27
+msgid "User views <strong>a post of a type</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post.php:26
+msgid "User views a post"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/view-post.php:27
+msgid "User views <strong>a post</strong>"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/visit-site.php:26
+#: includes/integrations/wordpress/triggers/visit-site.php:30
+msgid "User daily visits the site"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/visit-site.php:27
+msgid "User <strong>daily visits</strong> the site"
+msgstr ""
+
+#: includes/integrations/wordpress/triggers/visit-site.php:29
+#, php-format
+msgid "User daily visits the site %1$s time(s)"
+msgstr ""
+
+#: includes/scripts.php:150
+msgid "Saving"
+msgstr ""
+
+#: includes/scripts.php:196
+msgid "Select an option"
+msgstr ""
+
+#: includes/scripts.php:197 includes/utilities.php:51 includes/utilities.php:88
+msgid "Select a post"
+msgstr ""
+
+#: includes/scripts.php:198
+msgid "Select a term"
+msgstr ""
+
+#: includes/scripts.php:200
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: includes/scripts.php:201
+msgid "Select a user"
+msgstr ""
+
+#: includes/scripts.php:202
+msgid "Select an item"
+msgstr ""
+
+#: includes/tags.php:27
+msgid "Site"
+msgstr ""
+
+#: includes/tags.php:33
+msgid "Site name"
+msgstr ""
+
+#: includes/tags.php:39
+msgid "Site URL"
+msgstr ""
+
+#: includes/tags.php:45
+msgid "Admin email"
+msgstr ""
+
+#: includes/tags.php:76
+msgid "Display name"
+msgstr ""
+
+#: includes/tags.php:78
+msgid "AutomatorWP Plugin"
+msgstr ""
+
+#: includes/tags.php:82
+msgid "First name"
+msgstr ""
+
+#: includes/tags.php:88
+msgid "Last name"
+msgstr ""
+
+#: includes/tags.php:90
+msgid "Plugin"
+msgstr ""
+
+#: includes/tags.php:94
+msgid "Reset password URL"
+msgstr ""
+
+#: includes/tags.php:100
+msgid "Reset password link"
+msgstr ""
+
+#: includes/tags.php:102 includes/tags.php:483
+msgid "Click here to reset your password"
+msgstr ""
+
+#: includes/tags.php:106
+msgid "User Meta"
+msgstr ""
+
+#: includes/tags.php:108
+msgid "User meta value, replace \"META_KEY\" by the user meta key"
+msgstr ""
+
+#: includes/triggers.php:54
+#, php-format
+msgid "Trigger \"%s\" has the option key \"%s\" that is not allowed"
+msgstr ""
+
+#: includes/triggers.php:61
+#, php-format
+msgid "Possible trigger duplication with the key \"%s\""
+msgstr ""
+
+#: includes/utilities.php:24
+msgid "Number of times:"
+msgstr ""
+
+#: includes/utilities.php:53 includes/utilities.php:90
+#: includes/utilities.php:437
+msgid "Post ID"
+msgstr ""
+
+#: includes/utilities.php:132 includes/utilities.php:168
+msgid "Category:"
+msgstr ""
+
+#: includes/utilities.php:134 includes/utilities.php:170
+msgid "Select a category"
+msgstr ""
+
+#: includes/utilities.php:136 includes/utilities.php:172
+msgid "Category ID"
+msgstr ""
+
+#: includes/utilities.php:209
+msgid "Taxonomy:"
+msgstr ""
+
+#: includes/utilities.php:212
+msgid "Select a taxonomy"
+msgstr ""
+
+#: includes/utilities.php:214
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/utilities.php:221
+msgid "Term:"
+msgstr ""
+
+#: includes/utilities.php:222
+msgid "any term"
+msgstr ""
+
+#: includes/utilities.php:223
+msgid "Term ID"
+msgstr ""
+
+#: includes/utilities.php:313
+msgid "any automation"
+msgstr ""
+
+#: includes/utilities.php:314
+msgid "Automation ID"
+msgstr ""
+
+#: includes/utilities.php:364 includes/utilities.php:399
+msgid "Select a role"
+msgstr ""
+
+#: includes/utilities.php:528
+msgid "Number of times"
+msgstr ""
+
+#: includes/utilities.php:567 includes/utilities.php:673
+#, php-format
+msgid "%s ID"
+msgstr ""
+
+#: includes/utilities.php:573 includes/utilities.php:588
+#, php-format
+msgid "%s Title"
+msgstr ""
+
+#: includes/utilities.php:575
+msgid "The title"
+msgstr ""
+
+#: includes/utilities.php:579
+#, php-format
+msgid "%s URL"
+msgstr ""
+
+#: includes/utilities.php:585
+#, php-format
+msgid "%s Link"
+msgstr ""
+
+#: includes/utilities.php:592 includes/utilities.php:727
+#, php-format
+msgid "%s Type"
+msgstr ""
+
+#: includes/utilities.php:598
+#, php-format
+msgid "%s Author ID"
+msgstr ""
+
+#: includes/utilities.php:604 includes/utilities.php:703
+#, php-format
+msgid "%s Author Email"
+msgstr ""
+
+#: includes/utilities.php:610 includes/utilities.php:721
+#, php-format
+msgid "%s Content"
+msgstr ""
+
+#: includes/utilities.php:612 includes/utilities.php:723
+msgid "The content"
+msgstr ""
+
+#: includes/utilities.php:616
+#, php-format
+msgid "%s Excerpt"
+msgstr ""
+
+#: includes/utilities.php:618
+msgid "The excerpt"
+msgstr ""
+
+#: includes/utilities.php:622
+#, php-format
+msgid "%s Status"
+msgstr ""
+
+#: includes/utilities.php:628
+#, php-format
+msgid "%s Parent ID"
+msgstr ""
+
+#: includes/utilities.php:634
+#, php-format
+msgid "%s Menu Order"
+msgstr ""
+
+#: includes/utilities.php:640
+#, php-format
+msgid "%s Meta"
+msgstr ""
+
+#: includes/utilities.php:642
+#, php-format
+msgid "%s meta value, replace \"META_KEY\" by the %s meta key"
+msgstr ""
+
+#: includes/utilities.php:658
+msgid "Comment"
+msgstr ""
+
+#: includes/utilities.php:679
+#, php-format
+msgid "%s Post ID"
+msgstr ""
+
+#: includes/utilities.php:685
+#, php-format
+msgid "%s Post Title"
+msgstr ""
+
+#: includes/utilities.php:687
+msgid "The post title"
+msgstr ""
+
+#: includes/utilities.php:691
+#, php-format
+msgid "%s User ID"
+msgstr ""
+
+#: includes/utilities.php:697
+#, php-format
+msgid "%s Author Name"
+msgstr ""
+
+#: includes/utilities.php:709
+#, php-format
+msgid "%s Author URL"
+msgstr ""
+
+#: includes/utilities.php:715
+#, php-format
+msgid "%s Author IP"
+msgstr ""
+
+#: includes/utilities.php:747
+msgid "Condition:"
+msgstr ""
+
+#: includes/utilities.php:750
+msgid "equal to"
+msgstr ""
+
+#: includes/utilities.php:751
+msgid "not equal to"
+msgstr ""
+
+#: includes/utilities.php:752
+msgid "less than"
+msgstr ""
+
+#: includes/utilities.php:753
+msgid "greater than"
+msgstr ""
+
+#: includes/utilities.php:754
+msgid "less or equal to"
+msgstr ""
+
+#: includes/utilities.php:755
+msgid "greater or equal to"
+msgstr ""
+
+#: includes/utilities.php:922
+msgid "Show options"
+msgstr ""
+
+#: includes/utilities.php:923
+msgid "Hide options"
+msgstr ""

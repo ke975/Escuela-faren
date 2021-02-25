@@ -1,0 +1,161 @@
+.call-to-action-section {
+
+	.widget_ste_cta_widget {
+		margin-bottom: 0;
+
+		> div {
+			padding: 75px 0;
+			min-height: 480px;
+			display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+			flex: 1;
+			flex-direction: column;
+			justify-content: center;
+
+			&.right {
+
+				.widget-title, 
+				.text-holder {
+					margin-left: auto;
+				}
+
+			}
+
+			&.centered {
+				
+				.widget-title, 
+				.text-holder {
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			}
+
+			&.ste-cta-bg::before {
+				display: none;
+			}
+
+		}//> div
+
+		.ste-cta-container {
+			max-width: 1170px;
+			margin: 0 auto;
+			width: 100%;
+
+			.counter-wrap {
+			
+				.countdown-block {
+					width: calc(25% - 2%);
+				}//.countdown-block
+
+			}//.counter-wrap
+
+		}//.ste-cta-container
+
+		.widget-title {
+			margin-top: 0;
+			margin-bottom: 20px;
+			color: $secondary_color;
+			font-size: 2.5554em;
+			max-width: 55%;
+			line-height: 1.3;
+			letter-spacing: 0.5px;
+		}//.widget-title
+
+		.text-holder {
+			max-width: 55%;
+			color: #333;
+
+			p {
+				display: inline-block;
+				font-size: 1.1112em;
+			}//p
+
+		}//.text-holder
+
+	}//.widget_ste_cta_widget
+
+}//.call-to-action-section
+
+@include media(md) {
+
+	.call-to-action-section {
+
+		.widget_ste_cta_widget {
+
+			> div {
+				min-height: auto;
+			}//> div
+
+			.ste-cta-container {
+				max-width: 1000px;
+			}//.ste-cta-container
+
+		}//.widget_ste_cta_widget
+
+	}//.call-to-action-section
+
+}//media(md)
+
+@include media(sm) {
+
+	.call-to-action-section {
+
+		.widget_ste_cta_widget {
+
+			.ste-cta-container {
+				padding-left: 15px;
+				padding-right: 15px;
+				max-width: 768px;
+			}//.ste-cta-container
+
+			.widget-title, .text-holder {
+				max-width: 80%;
+			}//.widget-title
+
+		}//.widget_ste_cta_widget
+
+	}//.call-to-action-section
+
+}//media(sm)
+
+@include media(xs) {
+
+	.call-to-action-section {
+
+		.widget_ste_cta_widget {
+
+			.ste-cta-container {
+				max-width: 420px;
+
+				.counter-wrap {
+			
+					.countdown-block {
+						width: calc(50% - 2%);
+					}//.countdown-block
+					
+				}//.counter-wrap
+
+			}//.ste-cta-container
+
+			.widget-title {
+				font-size: 1.6667em;
+				max-width: 100%;
+			}//.widget-title
+
+			.text-holder {
+				max-width: 100%;
+
+				p {
+					font-size: 1em;
+				}
+
+			}//.text-holder
+
+		}//.widget_ste_cta_widget
+
+	}//.call-to-action-section
+
+}//media(xs)

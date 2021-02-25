@@ -1,0 +1,77 @@
+.counter-section {
+	background: rgba($primary_color, 0.7);
+	margin-top: 70px;
+	padding: 30px 0;
+
+	.widget_ste_stat_counter_widget {
+		margin-bottom: 0;
+	}//.widget_ste_stat_counter_widget
+
+	.container {
+		display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+		flex: 1;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+
+		.widget_ste_stat_counter_widget {
+			width: 22.66%;
+			margin-right: 3%;
+
+			&:nth-child(4n) {
+				margin-right: 0;
+			}
+
+		}//.widget_ste_stat_counter_widget
+
+	}//.container
+
+}//.counter-section
+
+@include media(sm) {
+
+	.counter-section {
+		padding-bottom: 10px;
+
+		.container {
+
+			.widget_ste_stat_counter_widget {
+				width: 48%;
+				margin-bottom: 20px;
+
+				&:nth-child(4n) {
+					margin-right: 3%;
+				}
+
+				&:nth-child(2n) {
+					margin-right: 0;
+				}
+
+			}//.widget_ste_stat_counter_widget
+
+		}//.container
+
+	}//.counter-section
+
+}//media(sm)
+
+@include media(xs) {
+
+	.counter-section {
+
+		.container {
+			flex-direction: column;
+
+			.widget_ste_stat_counter_widget {
+				width: 100%;
+				margin-right: 0;
+			}//.widget_ste_stat_counter_widget
+
+		}//.container
+
+	}//.counter-section
+
+}//media(xs)

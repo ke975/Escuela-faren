@@ -1,0 +1,133 @@
+.single-st_instructor {
+
+	.site-main {
+
+		.team-name {
+			margin-top: 0;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			font-size: 1.3333em;
+			letter-spacing: 0.2px;
+			color: $secondary_color;
+			font-weight: 700;
+			line-height: 1.5;
+		}//.team-name
+
+		.instructor-title-wrap {
+			background: $secondary_color;
+			padding: 20px;
+			display: -webkit-box;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+
+			.image-wrapper {
+				width: calc(60% - 60px);
+				margin-right: 60px;
+				position: relative;
+				margin-top: 20px;
+				z-index: 1;
+
+				&::after {
+					content: "";
+					background: rgba(255,255,255,0.75);
+					position: absolute;
+					top: -20px;
+					right: -20px;
+					width: 100%;
+					height: 100%;
+					z-index: -1;
+				}
+
+			}//.image-wrapper
+
+			.content-wrapper {
+				width: 40%;
+
+				.meta-wrap > div {
+					font-size: 0.8888em;
+					font-weight: 600;
+					color: #fff;
+					letter-spacing: 0.2px;
+					margin-bottom: 10px;
+
+					> svg {
+						color: $primary_color;
+						margin-right: 10px;
+					}
+
+					a:hover {
+						color: #fff;
+					}
+				}
+
+				.social-profile {
+					margin: 0;
+					padding: 0;
+					list-style: none;
+					display: -webkit-box;
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+
+					li {
+						margin-right: 15px;
+						margin-top: 5px;
+
+						a {
+							padding: 5px;
+
+							&:hover {
+								color: #fff;
+							}
+
+						}//a
+
+					}//li
+
+				}//.social-profile
+
+			}//.content-wrapper
+
+		}//.instructor-title-wrap
+
+		.description {
+			margin-top: 5px;
+			color: #999;
+
+			p {
+				margin-top: 20px;
+				margin-bottom: 0;
+			}//p
+
+		}//.description
+
+	}//.site-main
+
+}//.single-st_instructor
+
+@include media(xs) {
+
+	.single-st_instructor {
+
+		.site-main {
+
+			.instructor-title-wrap {
+				flex-direction: column-reverse;
+
+				.image-wrapper {
+					width: calc(100% - 20px);
+				}//.image-wrapper
+
+				.content-wrapper {
+					width: 100%;
+					margin-bottom: 20px;
+				}//.content-wrapper
+
+			}//.instructor-title-wrap
+
+		}//.site-main
+
+	}//.single-st_instructor
+
+}//media(xs)

@@ -1,0 +1,161 @@
+.st-toolkit.single-event {
+
+	.site-main {
+
+		article {
+
+			.entry-header {
+				margin-bottom: 20px;
+
+				.entry-title {
+					margin-top: 0;
+					margin-bottom: 0;
+					font-size: 1.3333em;
+					font-weight: 800;
+					line-height: 1.5;
+					letter-spacing: 0.5px;
+					text-transform: uppercase;
+					color: $secondary_color;
+					display: none;
+				}//.entry-title
+
+			}//.entry-header
+
+			.social-list {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+
+				li {
+					display: inline-block;
+					padding-right: 20px;
+
+					a {
+						display: inline-block;
+						font-size: 0.8888em;
+						border: 1px solid rgba(0,0,0,0.15);
+						width: 25px;
+						text-align: center;
+						height: 25px;
+						line-height: 23px;
+						color: $secondary_color;
+
+						&:hover {
+							background: $secondary_color;
+							border-color: $secondary_color;
+							color: #fff;
+						}
+
+					}//a
+
+				}//li
+
+			}//.social-list
+
+		}//article
+
+	}//.site-main
+
+	.post-navigation {
+		margin-top: 30px;
+
+		.nav-links {
+
+			a {
+				display: inline-block;
+				width: 30px;
+				text-align: center;
+				height: 30px;
+				line-height: 30px;
+				background: #ddd;
+				color: #fff;
+
+				&:hover {
+					background: $secondary_color;
+				}
+
+			}//a
+
+		}//.nav-links
+
+	}//.post-navigation
+
+	.additional-posts {
+
+		.title {
+			color: $secondary_color;
+		}//.title
+
+		.additional-post-wrap {
+
+			.entry-content {
+				text-align: center;
+			}//.entry-content
+
+			.button-wrap {
+				margin-top: 10px;
+				text-align: center;
+
+				.link-button {
+					font-size: 0.6666em;
+					font-family: $secondary_font;
+					font-weight: 500;
+					display: inline-block;
+					color: $secondary_color;
+					background: $primary_color;
+					padding: 5px 10px;
+					border-radius: 3px;
+					text-align: center;
+					&:hover {
+						background: $secondary_color;
+						color: $primary_color;
+					}
+
+				}//.link-button
+
+			}//.button-wrap
+
+		}//.additional-post-wrap
+
+		.entry-footer {
+			margin-top: 10px;
+			display: -webkit-box;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			text-align: center;
+
+			> span {
+				color: #999;
+				font-size: 0.7778em;
+				font-weight: 700;
+				letter-spacing: 0.5px;
+				display: inline-block;
+				margin-right: 15px;
+				text-transform: uppercase;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				svg {
+					margin-right: 5px;
+					color: $secondary_color;
+				}
+
+				a {
+					color: #999;
+
+					&:hover {
+						color: $secondary_color;
+					}
+
+				}//a
+
+			}//span
+
+		}//.entry-footer
+
+	}//.additional-posts
+
+}//.single-event
